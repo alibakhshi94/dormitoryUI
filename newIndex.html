@@ -1,0 +1,197 @@
+<div id="home"></div>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+<style type="text/css" media="screen, print">
+	@font-face {
+    font-family: 'irsans';
+    src:url('fonts/irsans.woff') format('woff'),
+   		 url('fonts/irsans.ttf') format('truetype');
+		}
+	@font-face {
+    font-family: 'BRoya';
+    src:url('fonts/BRoya.woff') format('woff'),
+          url('fonts/BRoya.ttf') format('truetype');
+		}
+	@font-face {
+    font-family: 'Yekan';
+    src:url('fonts/Yekan.woff') format('woff'),
+          url('fonts/Yekan.ttf') format('truetype');
+			}
+</style>
+    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body scroll="no">
+<!-- Start Top Nav _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<ul class="topnav" id="myTopnav">
+    <li><a class="active" href="#home"><span class="homeIcon"></span></a></li>
+    <li><a href="#about">درباره ما</a></li>
+    <li><a href="#gallary">تصاویر</a></li>
+    <li><a href="#" id="myBtn">ثبت نام</a></li>
+    <li><a href="#contact">تماس با ما</a></li>
+    <li><a href="#login">ورود به سامانه</a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+</ul>
+
+<!-- End Top Nav _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<!-- Start First Parallax  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<div class="parallax">
+    <h1 class="mainHeader"><mark>سامانه جامع اتوماسیون خوابگاه، راهکار نرم افزاری برای مدیریت امور خوابگاه در دانشگاه ها و مراکز آموزش عالی می باشد</mark></h1>
+    <p class="buttons">
+        <a href="#about"><button type="button" class="mainHeader_Button" >درباره ما</button></a>
+    </p>
+</div>
+<!-- End First Parallax  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<!-- Start About   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<div id="about" class="aboutUs">
+    <h1 class="centered aboutHeader " >سامانه جامع اتوماسیون خوابگاه در یک نگاه</h1>
+    <hr class="hrOpt">
+    <p class="centered aboutContent"><span class="element"></span>مدیریت راحت تر و مناسب تر خوابگاه از طریق سامانه تحت وب در هرزمان و مکان</p><div class="clear"></div>
+    <p class="centered aboutContent"><span class="element"></span>جلوگیری از مراجعات حضوری دانشجویان و کاهش ازدحام در هنگام ثبت نام خوابگاه</p><div class="clear"></div>
+    <p class="centered aboutContent"><span class="element"></span>امکان ارائه گزارش های مختلف از وضعیت اتاق ها، دانشجویان، مشکلات خوابگاه و ...</p><div class="clear"></div>
+</div>
+<!-- End About   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<!-- Start Gallary   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<div id="gallary" >
+    <img class="mySlides" src="picture/11.jpg" style="width:100%">
+    <img class="mySlides" src="picture/22.jpg" style="width:100%">
+    <img class="mySlides" src="picture/33.jpg" style="width:100%">
+    <img class="mySlides" src="picture/44.jpg" style="width:100%">
+    <img class="mySlides" src="picture/55.jpg" style="width:100%">
+    <img class="mySlides" src="picture/66.jpg" style="width:100%">
+    <img class="mySlides" src="picture/77.jpg" style="width:100%">
+    <img class="mySlides" src="picture/88.jpg" style="width:100%">
+</div>
+<!-- End Gallary   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<!-- Start Login & Register & Footer  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<div class="parallax2" id="login">
+    <div class="loginForm" >
+        <form action="userLogin.php" method="post" class="centered">
+            <input type="text" class="loginInp" name="nationalityID" placeholder="شماره ملی "  maxlength="255">
+            <div class="clear" id="spaceInp"></div>
+            <input type="password" class="loginInp" name="userPassword" placeholder="پسورد"  maxlength="255">
+            <div class="clear" style="padding-bottom:15px;"></div>
+            <input type="hidden" name="check" value="sended" />
+            <input type="submit" class="loginSub" value="ورود" name="login" />
+        </form>
+    </div>
+    <div class="contactUs" id="contact">
+        <p>تماس با ما</p>
+        <P><span class="mapIcon"></span>آدرس: تبریز، انتهای منظریه، دانشگاه فنی شماره 1 تبریز</P>
+        <P><span class="tellIcon"></span>تلفن:34779011-041</P>
+        <P><span class="emailIcon"></span>ایمیل:Info [at] tct.ir</P>
+    </div>
+    <!-- start our customer _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+    <div id="customerConf">
+        <p>برخی از مشتریان ما</p>
+        <div id="customer">
+            <ul>
+                <li><img src="picture/uta.png" alt="" class="customerPic" ></li>
+                <li><img src="picture/su.png" alt="" class="customerPic" ></li>
+                <li><img src="picture/mu.svg" alt="" class="customerPic" ></li>
+                <li><img src="picture/us.svg" alt="" class="customerPic" ></li>
+                <li><img src="picture/s666.png" alt="" class="customerPic" ></li>
+                <li><img src="picture/uta.png" alt="" class="customerPic" ></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End our customer _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+    <!-- Start footer _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+    <div class="endPage">
+        <p>All Rights Reserved. Design & Developed By: Ali Bakhshi © 2016</p>
+    </div>
+    <!-- End footer _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+</div>
+
+<!-- start register form  -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">×</span>
+        </div>
+        <div class="modal-body">
+            <form  id="registerForm" action="#" method="post">
+                <div id="registerFSty"></div>
+                <div class="regInputStyle"><input type="text" name="name" class="centered regInput" placeholder="نام"></div>
+                <div class="regInputStyle"><input type="text" name="family" class="centered regInput" placeholder="نام خانوادگی"></div>
+                <div class="regInputStyle"><input type="text" name="studentID" class="centered regInput" placeholder="شماره دانشجویی"></div>
+                <div class="regInputStyle"><input type="text" name="nationalityID" class="centered regInput" placeholder="شماره ملی"></div>
+                <div class="regInputStyle"><input type="password" name="userPassword" class="centered regInput" placeholder="پسورد"></div>
+                <div class="regInputStyle"><input type="text" name="mobile" class="centered regInput" placeholder="موبایل"></div>
+                <div class="regInputStyle"><input type="text" name="tell" class="centered regInput" placeholder="تلفن منزل"></div>
+                <div class="regInputStyle"><textarea class="centered regInput" name="address" placeholder="آدرس منزل" rows="4" cols="50"></textarea></div>
+
+                <div class="regInputStyle"><select class="centered regInput2" name="majors">
+                    <option selected disabled>رشته تحصیلی</option>
+                    <option value="1">نرم افزار</option>
+                    <option value="2">ساخت و تولید</option>
+                    <option value="3">برق صنعتی</option>
+                    <option value="4">معماری</option>
+                    <option value="5">تاسیسات</option>
+                    <option value="6">تقشه برداری</option>
+                    <option value="7">الکترونیک</option>
+                </select></div>
+
+                <div class="regInputStyle">
+                <select class="centered regInput2" name="terms1">
+                    <option selected disabled >ترم</option>
+                    <option value="1">اول</option>
+                    <option value="2">دوم</option>
+                    <option value="3">سوم</option>
+                    <option value="4">چهارم</option>
+                </select></div>
+
+                <div class="regInputStyle"><select class="centered regInput2" name="region" style="margin-bottom:5px;">
+                    <option selected disabled>استان</option>
+                    <option value="2">آ.شرقی</option>
+                    <option value="3">آ.غربی</option>
+                    <option value="4">اردبیل</option>
+                    <option value="5">اصفهان</option>
+                    <option value="6">البرز</option>
+                    <option value="7">ایلام</option>
+                    <option value="8">بوشهر</option>
+                    <option value="9">تهران</option>
+                    <option value="10">چهارمحال و بختیاری</option>
+                    <option value="11">خراسان جنوبی</option>
+                    <option value="12">خراسان رضوی</option>
+                    <option value="13">خراسان شمالی</option>
+                    <option value="14">خوزستان</option>
+                    <option value="15">زنجان</option>
+                    <option value="16">سمنان</option>
+                    <option value="17">سیستان و بلوچستان</option>
+                    <option value="18">فارس  </option>
+                    <option value="19">قزوین</option>
+                    <option value="20">قم</option>
+                    <option value="21">کردستان</option>
+                    <option value="22">کرمان</option>
+                    <option value="23">کرمانشاه</option>
+                    <option value="24">کهگیلویه و بویراحمد</option>
+                    <option value="25">گلستان</option>
+                    <option value="26">گیلان</option>
+                    <option value="27">لرستان</option>
+                    <option value="28">مازندران</option>
+                    <option value="29">مرکزی</option>
+                    <option value="30">هرمزگان</option>
+                    <option value="31">همدان</option>
+                    <option value="32">یزد</option>
+                </select>
+                <div class="modal-footer">
+                    <input type = "submit" class="centered logSub" name="register" value = " ثبت نام "/>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+<!-- Start Scripst _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+<script src="JS/main.js"></script>
+<!-- End Scripst _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ -->
+</body>
+</html>
+
